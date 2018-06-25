@@ -1,44 +1,116 @@
 /* CSS comment */
 
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.main-container {
+  padding: 40px 0px 80px 0px;
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#suspicious-minds {
+  width: 400px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album-artwork-container {
+  padding: 50px 0px 50px 0px;
+}
+
+#suspicious-minds-page .album-artwork-container {
+  background-color: #dd5e4f;
+}
+
 .nav {
-  list-style: none;
-  padding-left: 0;
+  height: 20px;
+  background-color:#000;
+  text-align:center;
+  margin: 0;
+  padding: 30px;
 }
 
 .nav li {
-  display: inline-block;
+  display:inline;
+  line-height: 20px;
 }
 
 .nav a {
-  background-color: #c00;
+  display:inline-block;
   color: #fff;
   font-family: Helvetica, sans-serif;
-  padding: 10px 40px;
   text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0 20px;
 }
 
-.nav a:hover {
-  background-color: #000;
+.nav a:hover:after{
+  display:block;
+  height:1px;
+  background:white;
+  content:'';
 }
 
-.button {
-  background-color: #000;
-  color: #fff;
-  font-family: Helvetica, sans-serif;
-  padding: 10px 40px;
-  text-decoration: none;
-}
-
-.button:hover {
-  background-color: #c00;
+.footer {
+  background:black;
+  padding: 15px 50px 15px 50px;
 }
 
 .footer p {
-  color: #5d5d5d;
-  font-size: 12px;
-  padding: 100px 0px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #a9a9a9;
+  text-decoration: none;
 }
 
 #profile-image {
-  width: 300px;
+  max-width: 300px;
 }
+
+
+
+
+
+
