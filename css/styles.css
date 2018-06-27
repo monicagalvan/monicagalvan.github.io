@@ -1,4 +1,9 @@
 /* CSS comment */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 h1 {
   font-family: Helvetica, sans-serif;
@@ -28,7 +33,7 @@ p {
 }
 
 .main-container {
-  padding: 100px 0px 100px 0px;
+  padding: 50px 0px 100px 0px;
   max-width: 800px;
   display: block;
   margin-left: auto;
@@ -107,6 +112,26 @@ p {
 
 #profile-image {
   max-width: 300px;
+}
+
+.song-title-section {
+  background-color: #dd5e4f;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.song-title-section h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100px;
+  color: #fff;
+  padding: 100px 0px 100px 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
 }
 
 
